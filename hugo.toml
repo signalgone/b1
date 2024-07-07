@@ -7,9 +7,10 @@ theme = 'PaperMod'
 math = true
 uglyURLs = true
 
-[imaging]
-  [imaging.exif]
-    disableDate = false
-    disableLatLong = false
-    excludeFields = ''
-    includeFields = ''
+[build]
+  writeStats = true
+
+[module]
+[[module.mounts]]
+  source = "assets"
+  target = "assets"
