@@ -6,3 +6,10 @@ theme = 'PaperMod'
 [params]
 math = true
 uglyURLs = true
+
+[imaging]
+  [imaging.exif]
+    disableDate = false
+    disableLatLong = false
+    excludeFields = ''
+    includeFields = ''

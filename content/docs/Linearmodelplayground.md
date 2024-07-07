@@ -19,22 +19,22 @@ So the steps for FWL theorem is
 Mostly people have actually presented it in non-correlated/independent variables form. It works with correlated variables as well.
 
 So first, lets generate some random variables of y, which is the target, and 3 inputs of x variable. 
-![alt text](images/Linearmodelplayground/image.png)
+![alt text](assets/Linearmodelplayground/image.png)
 {{ $image := resources.Get "Linearmodelplayground/image.png" }} <img src="{{$image.Permalink}}">
 
 
 Now that we have our random variables, we fit them onto OLS.
-![alt text](images/Linearmodelplayground/image-1.png)
+![alt text](assets/Linearmodelplayground/image-1.png)
 {{ $image := resources.Get "Linearmodelplayground/image-1.png" }} <img src="{{$image.Permalink}}">
 
 Next, we shall regress each $X$ on the other two $X$ and get the residual. Then, check their correlation between residual, which is residual_x1 as we trying to find the effect of x1, and the other two variables, x2 and x3  
-![alt text](images/Linearmodelplayground/image-2.png)
+![alt text](assets/Linearmodelplayground/image-2.png)
 {{ $image := resources.Get "Linearmodelplayground/image-2.png" }} <img src="{{$image.Permalink}}">
 
 We can see that the correlation between residual_x1, x2 and x3 changes, it become uncorrelated from highly correlated between x1, x2 and x3.
 
 We regress y on Residual_x1, x2, x3.
-![alt text](images/Linearmodelplayground/image-3.png)
+![alt text](assets/Linearmodelplayground/image-3.png)
 {{ $image := resources.Get "Linearmodelplayground/image-3.png" }} <img src="{{$image.Permalink}}">
 
 
