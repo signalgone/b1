@@ -1,4 +1,5 @@
 name: Publish to GH Pages
+
 on:
   push:
     branches:
@@ -14,27 +15,24 @@ jobs:
         with:
           submodules: true
 
-      - name: Checkout destination
-        uses: actions/checkout@v4
-        if: github.ref == 'refs/heads/main'
-        with:
-          ref: gh-pages
-          path: built-site
-
       - name: Setup Hugo
         run: |
           curl -L -o /tmp/hugo.tar.gz 'https://github.com/gohugoio/hugo/releases/download/v0.128.0/hugo_extended_0.128.0_linux-amd64.tar.gz'
-          tar -C ${RUNNER_TEMP} -zxvf /tmp/hugo.tar.gz hugo          
+          tar -C ${{ runner.temp }} -zxvf /tmp/hugo.tar.gz hugo
+          mkdir built-site  # Create if not exist
+
       - name: Build
-        run: ${RUNNER_TEMP}/hugo
+        run: ${{ runner.temp }}/hugo
 
       - name: Deploy
         if: github.ref == 'refs/heads/main'
         run: |
           cp -R public/* ${GITHUB_WORKSPACE}/built-site/
           cd ${GITHUB_WORKSPACE}/built-site
+          git config --global user.email "lxrxy99@gmail.com"
+          git config --global user.name "lxrxy"
+          git init
           git add .
-          git config user.name 'lxrxy'
-          git config user.email 'lxrxy99@gmail.com'
-          git commit -m 'Updated site'
-          git push
+          git commit -m "Updated site"
+          git remote add origin https://github.com/yourusername/yourrepository.git
+          git push --force --quiet origin gh-pages
