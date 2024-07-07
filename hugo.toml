@@ -20,4 +20,8 @@ uglyURLs = true
 [module]
 [[module.mounts]]
   source = "assets"
-  target = "static"
+  target = "assets"
+
+[imaging]
+resampleFilter = "box"
+quality = 75
