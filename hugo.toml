@@ -20,4 +20,4 @@ uglyURLs = true
 [module]
 [[module.mounts]]
   source = "assets"
-  target = "assets"
+  target = "static"
