@@ -3,7 +3,6 @@ layout: page
 title: Linear model playground - FWL Theorem
 date: 2024-07-07T16:56:37+08:00
 draft: false
-math: true
 ---
 
 Hello, so I have been studying Linear models (including Ordinary Least Squares (OLS)) in the past few weeks. 
