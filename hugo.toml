@@ -4,18 +4,21 @@ title = 'Signal Gone'
 theme = 'PaperMod'
 staticDir = ['static']
 
-[params]
-math = true
-uglyURLs = true
-
-
-
 [markup]
   [markup.goldmark]
     [markup.goldmark.parser]
       wrapStandAloneImageWithinParagraph = false
       [markup.goldmark.parser.attribute]
         block = true
+    [markup.goldmark.renderer]
+      unsafe = true
+
+[params]
+math = true
+uglyURLs = true
+
+
+
  
 [build]
   writeStats = true
