@@ -3,5 +3,5 @@ languageCode = 'en-us'
 title = 'Signal Gone'
 theme = 'PaperMod'
 
-#params:
-  #math: true
+params:
+  math: true
