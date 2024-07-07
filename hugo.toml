@@ -21,6 +21,3 @@ uglyURLs = true
 [[module.mounts]]
   source = "assets"
   target = "assets"
-
-[markup.goldmark.renderer]
-  unsafe = true
