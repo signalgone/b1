@@ -22,6 +22,7 @@ So first, lets generate some random variables of y, which is the target, and 3 i
 ![Alt text](/Linearmodelplayground/image.png)
 
 
+
 Now that we have our random variables, we fit them onto OLS.
 ![Alt text](/Linearmodelplayground/image-1.png)
 

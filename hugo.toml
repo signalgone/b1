@@ -15,7 +15,6 @@ staticDir = ['static']
 
 [params]
 math = true
-uglyURLs = true
 
 
 
