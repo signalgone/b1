@@ -2,9 +2,14 @@ baseURL = 'https://signalgone.github.io/b1/'
 languageCode = 'en-us'
 title = 'Signal Gone'
 theme = 'PaperMod'
+staticDir = ['static']
+
 [params]
 math = true
 uglyURLs = true
+
+
+
 [markup]
   [markup.goldmark]
     [markup.goldmark.parser]
@@ -18,3 +23,5 @@ uglyURLs = true
 [imaging]
 resampleFilter = "box"
 quality = 75
+
+
