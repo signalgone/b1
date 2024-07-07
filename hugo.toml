@@ -2,25 +2,18 @@ baseURL = 'https://signalgone.github.io/b1/'
 languageCode = 'en-us'
 title = 'Signal Gone'
 theme = 'PaperMod'
-
 [params]
 math = true
 uglyURLs = true
-
 [markup]
   [markup.goldmark]
     [markup.goldmark.parser]
       wrapStandAloneImageWithinParagraph = false
       [markup.goldmark.parser.attribute]
         block = true
-    
+ 
 [build]
   writeStats = true
-
-[module]
-[[module.mounts]]
-  source = "assets"
-  target = "assets"
 
 [imaging]
 resampleFilter = "box"
