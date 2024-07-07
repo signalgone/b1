@@ -29,8 +29,6 @@ jobs:
         run: |
           cp -R public/* ${GITHUB_WORKSPACE}/built-site/
           cd ${GITHUB_WORKSPACE}/built-site
-          git config --global user.email "lxrxy99@gmail.com"
-          git config --global user.name "lxrxy"
           git init
           git add .
           git commit -m "Updated site"
