@@ -29,6 +29,19 @@ Content = "Can be Info, links, about..."
 #url = "<link2>"
 
 
+[[menu.main]]
+identifier = "About me"
+name = "About me"
+url = "https://signalgone.github.io/b1/about/"
+weight = 10
+
+
+#[[menu.main]]
+#identifier = "tags"
+#name = "tags"
+#url = "/tags/"
+#weight = 20
+
 
  
 [build]
