@@ -41,7 +41,7 @@ category = "categories"
 [[menu.main]]
 identifier = "About me"
 name = "About me"
-url = "https://signalgone.github.io/b1/about/"
+url = "/about/"
 weight = 10
 
 
@@ -52,6 +52,11 @@ url = "/tags/"
 weight = 20
 
 
+[[menu.main]]
+identifier = "posts"
+name = "posts"
+url = "/posts/"
+weight = 30
  
 [build]
   writeStats = true
