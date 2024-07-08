@@ -15,6 +15,9 @@ staticDir = ['static']
 
 [params]
 math = true
+homeInfoParams=
+  Title= 'Hi there'
+  Content= Can be Info, links, about...
 
 
 
