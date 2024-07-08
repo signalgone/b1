@@ -8,13 +8,23 @@
     <loc>http://localhost:1313/b1/docs/linearmodelplayground/</loc>
     <lastmod>2024-07-07T22:30:37+08:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/b1/tags/linear-regression/</loc>
+    <lastmod>2024-07-07T22:30:37+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/b1/tags/modelling/</loc>
+    <lastmod>2024-07-07T22:30:37+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/b1/tags/ordinary-least-squares/</loc>
+    <lastmod>2024-07-07T22:30:37+08:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/b1/</loc>
+    <lastmod>2024-07-07T22:30:37+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/b1/tags/</loc>
     <lastmod>2024-07-07T22:30:37+08:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/b1/about/</loc>
   </url><url>
     <loc>http://localhost:1313/b1/categories/</loc>
-  </url><url>
-    <loc>http://localhost:1313/b1/tags/</loc>
   </url>
 </urlset>

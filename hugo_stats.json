@@ -27,7 +27,9 @@
       "path",
       "script",
       "span",
+      "strong",
       "style",
+      "sup",
       "svg",
       "title",
       "ul"
@@ -58,7 +60,9 @@
       "post-single",
       "post-tags",
       "post-title",
+      "share-buttons",
       "social-icons",
+      "tag-entry",
       "terms-tags",
       "top-link"
     ],

@@ -4,6 +4,9 @@ title = 'Signal Gone'
 theme = 'PaperMod'
 staticDir = ['static']
 
+ShowToc = true
+
+
 [markup]
   [markup.goldmark]
     [markup.goldmark.parser]
@@ -15,6 +18,9 @@ staticDir = ['static']
 
 [params]
 math = true
+ShowReadingTime = true
+ShowShareButtons = true
+
 
 [params.homeInfoParams]
 Title = "Welcome to my blog"
