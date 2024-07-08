@@ -17,8 +17,8 @@ staticDir = ['static']
 math = true
 
 [params.homeInfoParams]
-Title = "Hi there wave"
-Content = "Can be Info, links, about..."
+Title = "Welcome to my blog"
+Content = "Modelling and Quantitative Finance."
 
 #[[params.socialIcons]]
 #name = "<platform>"
@@ -28,6 +28,9 @@ Content = "Can be Info, links, about..."
 #name = "<platform 2>"
 #url = "<link2>"
 
+[taxonomies]
+tag = "tags"
+category = "categories"
 
 [[menu.main]]
 identifier = "About me"
