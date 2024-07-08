@@ -10,9 +10,9 @@
     <atom:link href="http://localhost:1313/b1/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Linear model playground - FWL Theorem</title>
-      <link>http://localhost:1313/b1/docs/linearmodelplayground/</link>
+      <link>http://localhost:1313/b1/post/linearmodelplayground/</link>
       <pubDate>Sun, 07 Jul 2024 22:30:37 +0800</pubDate>
-      <guid>http://localhost:1313/b1/docs/linearmodelplayground/</guid>
+      <guid>http://localhost:1313/b1/post/linearmodelplayground/</guid>
       <description>Hello, so I have been studying Linear models (including Ordinary Least Squares (OLS)) in the past few weeks. And I came across Frisch–Waugh–Lovell (FWL) Theorem. It basically states that multivariate regression can be deposed into (several) univariate regressions via holding one of the variable constant.
 For example, you have a regression, $$y=\beta_{0}+\beta_{1}X_{1}+\beta_{2}X_{2}$$ So the steps for FWL theorem is
 Regress $X_{1}$ on $X_{2}$ and take the residuals Regress $y$ on $X_{2}$ and take the residuals Regress the residuals from step 1 against the residuals from step 2 ($X_{1}-\hat{X}_{1}$ against $y-\hat{y}$) you will get back the same coefficient ($\beta_{1}$) for $X_{1}$ as when regress $y$ on $X_{1}$ and $X_{2}$.</description>

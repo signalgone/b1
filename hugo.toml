@@ -20,7 +20,7 @@ ShowToc = true
 math = true
 ShowReadingTime = true
 ShowShareButtons = true
-
+ShowBreadCrumbs = true
 
 [params.homeInfoParams]
 Title = "Welcome to my blog"
@@ -45,11 +45,11 @@ url = "https://signalgone.github.io/b1/about/"
 weight = 10
 
 
-#[[menu.main]]
-#identifier = "tags"
-#name = "tags"
-#url = "/tags/"
-#weight = 20
+[[menu.main]]
+identifier = "tags"
+name = "tags"
+url = "/tags/"
+weight = 20
 
 
  

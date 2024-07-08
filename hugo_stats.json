@@ -35,7 +35,9 @@
       "ul"
     ],
     "classes": [
+      "active",
       "anchor",
+      "breadcrumbs",
       "entry-content",
       "entry-footer",
       "entry-header",

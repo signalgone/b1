@@ -5,11 +5,11 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="robots" content="noindex, nofollow">
-<title>Categories | Signal Gone</title>
+<title>Posts | Signal Gone</title>
 <meta name="keywords" content="">
-<meta name="description" content="">
+<meta name="description" content="Posts - Signal Gone">
 <meta name="author" content="">
-<link rel="canonical" href="http://localhost:1313/b1/categories/">
+<link rel="canonical" href="http://localhost:1313/b1/post/">
 <link crossorigin="anonymous" href="/b1/assets/css/stylesheet.fc220c15db4aef0318bbf30adc45d33d4d7c88deff3238b23eb255afdc472ca6.css" integrity="sha256-/CIMFdtK7wMYu/MK3EXTPU18iN7/MjiyPrJVr9xHLKY=" rel="preload stylesheet" as="style">
 <link rel="icon" href="http://localhost:1313/b1/favicon.ico">
 <link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/b1/favicon-16x16.png">
@@ -18,8 +18,8 @@
 <link rel="mask-icon" href="http://localhost:1313/b1/safari-pinned-tab.svg">
 <meta name="theme-color" content="#2e2e33">
 <meta name="msapplication-TileColor" content="#2e2e33">
-<link rel="alternate" type="application/rss+xml" href="http://localhost:1313/b1/categories/index.xml">
-<link rel="alternate" hreflang="en" href="http://localhost:1313/b1/categories/">
+<link rel="alternate" type="application/rss+xml" href="http://localhost:1313/b1/post/index.xml">
+<link rel="alternate" hreflang="en" href="http://localhost:1313/b1/post/">
 <noscript>
     <style>
         #theme-toggle,
@@ -140,13 +140,26 @@
         </ul>
     </nav>
 </header>
-<main class="main">
-<header class="page-header">
-    <h1>Categories</h1>
+<main class="main"> 
+<header class="page-header"><div class="breadcrumbs"><a href="http://localhost:1313/b1/">Home</a></div>
+  <h1>
+    Posts
+  </h1>
 </header>
 
-<ul class="terms-tags">
-</ul>
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">Linear model playground - FWL Theorem
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Hello, so I have been studying Linear models (including Ordinary Least Squares (OLS)) in the past few weeks. And I came across Frisch–Waugh–Lovell (FWL) Theorem. It basically states that multivariate regression can be deposed into (several) univariate regressions via holding one of the variable constant.
+For example, you have a regression, $$y=\beta_{0}&#43;\beta_{1}X_{1}&#43;\beta_{2}X_{2}$$ So the steps for FWL theorem is
+Regress $X_{1}$ on $X_{2}$ and take the residuals Regress $y$ on $X_{2}$ and take the residuals Regress the residuals from step 1 against the residuals from step 2 ($X_{1}-\hat{X}_{1}$ against $y-\hat{y}$) you will get back the same coefficient ($\beta_{1}$) for $X_{1}$ as when regress $y$ on $X_{1}$ and $X_{2}$....</p>
+  </div>
+  <footer class="entry-footer"><span title='2024-07-07 22:30:37 +0800 +08'>July 7, 2024</span>&nbsp;·&nbsp;2 min</footer>
+  <a class="entry-link" aria-label="post link to Linear model playground - FWL Theorem" href="http://localhost:1313/b1/post/linearmodelplayground/"></a>
+</article>
     </main>
     
 <footer class="footer">
