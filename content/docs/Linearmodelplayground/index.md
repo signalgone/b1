@@ -40,7 +40,7 @@ We regress y on Residual_x1, x2, x3.
 you will see that the coefficient of Residual_x1 is the same as the coefficient of x1 as before. This is the beauty of FWL theorem. We can use this theorem to study the each input on how they affect other inputs.
 
 
-FWL theorem works cause of residuals, which are leftover effects after accounting for all the inputs $X$ , are orthogonal to the predicted target $\hat{y}$. $$\epsilon^{T}\hat{y}=0$$ Which is why the correlation changes between Residual_x1 and x2 and x3.
+FWL theorem works cause of residuals, which are leftover effects after accounting for all the inputs $X$ , are orthogonal to the predicted target $\hat{y}$. $$\epsilon^{T}\hat{y}=0$$ Which is why the correlation/coefficient changes between Residual_x1 and x2 and x3, even though, the coefficient of Residual_x1 and x1 did not change
 
 
 
