@@ -16,6 +16,10 @@ ShowToc = true
     [markup.goldmark.renderer]
       unsafe = true
 
+[services]
+  [services.googleAnalytics]
+    ID = 'G-WMYWWL631H'
+
 [params]
 math = true
 ShowReadingTime = true
@@ -39,8 +43,8 @@ tag = "tags"
 category = "categories"
 
 [[menu.main]]
-identifier = "About me"
-name = "About me"
+identifier = "about me"
+name = "about me"
 url = "/about/"
 weight = 10
 
