@@ -5,5 +5,5 @@ permalink: /about/
 ---
 
 
-Hello, I am currently still a student, studying economics and quantitative finance in Singapore. I am very interested in quantitative finance and financial markets.
+Hello, I am currently still a student, studying Economics and Data Science and analytics in Singapore. I am very interested in machine learning/deep learning, statistics and quantitative finance/financial markets.
 
