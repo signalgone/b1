@@ -26,13 +26,17 @@ ShowReadingTime = true
 ShowShareButtons = false
 ShowBreadCrumbs = true
 
- #[[params.social]]
-    #name = "twitter"
-    #url = "https://twitter.com/yourhandle"
+ [[params.socialIcons]]
+    name = "twitter"
+    url = "https://twitter.com/yourhandle"
 
-  #[[params.social]]
-    #name = "github"
-    #url = "https://github.com/yourhandle"
+  [[params.socialIcons]]
+    name = "github"
+    url = "https://github.com/yourhandle"
+
+  [[params.socialIcons]]
+    name = "linkedin"
+    url = "https://www.linkedin.com/in/yourhandle"
 
 [params.homeInfoParams]
 Title = "Welcome to my blog"
