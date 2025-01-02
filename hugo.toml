@@ -30,11 +30,11 @@ ShowBreadCrumbs = true
 Title = "Welcome to my blog"
 Content = "Modelling and Quantitative Finance."
 
-#[[params.socialIcons]]
+#[[params.social]]
 #name = "<platform>"
 #url = "<link>"
 
-#[[params.socialIcons]]
+#[[params.social]]
 #name = "<platform 2>"
 #url = "<link2>"
 
