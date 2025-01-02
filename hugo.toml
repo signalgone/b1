@@ -25,12 +25,13 @@ math = true
 ShowReadingTime = true
 ShowShareButtons = false
 ShowBreadCrumbs = true
+social = true
 
  [[params.socialIcons]]
     name = "twitter"
     url = "https://twitter.com/yourhandle"
 
-  [[params.socialIcons]]
+  [[.Site.Params.Social]]
     name = "github"
     url = "https://github.com/yourhandle"
 
