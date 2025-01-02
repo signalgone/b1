@@ -27,17 +27,17 @@ ShowShareButtons = false
 ShowBreadCrumbs = true
 social = true
 
- [[params.socialIcons]]
-    name = "twitter"
-    url = "https://twitter.com/yourhandle"
+ #[[params.socialIcons]]
+  #  name = "twitter"
+  #  url = "https://twitter.com/yourhandle"
 
-  [[.Site.Params.Social]]
-    name = "github"
-    url = "https://github.com/yourhandle"
+  #[[.Site.Params.Social]]
+  # name = "github"
+  # url = "https://github.com/yourhandle"
 
-  [[params.socialIcons]]
-    name = "linkedin"
-    url = "https://www.linkedin.com/in/yourhandle"
+  #[[params.socialIcons]]
+  #  name = "linkedin"
+  #  url = "https://www.linkedin.com/in/yourhandle"
 
 [params.homeInfoParams]
 Title = "Welcome to my blog"
