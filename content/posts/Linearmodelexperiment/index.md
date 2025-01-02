@@ -57,7 +57,7 @@ However, this theorem doesn't hold if input $\mathbf{X}$ are perfectly correlate
 ## Conclusion
 We can use this theorem to study the each input on how they affect other inputs when we fixed one input in the form of residual.
  
-This theorem has been applied in machine learning which is known as "Double Machine Learning"
+This theorem has been applied in machine learning, which is known as "Double Machine Learning"
 
 
 ## References
