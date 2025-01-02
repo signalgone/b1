@@ -23,7 +23,7 @@ ShowToc = true
 [params]
 math = true
 ShowReadingTime = true
-ShowShareButtons = true
+ShowShareButtons = false
 ShowBreadCrumbs = true
 
 [params.homeInfoParams]
